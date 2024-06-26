@@ -12,7 +12,7 @@ import BookList from './assets/components/BookList/BookList'
 import BookDetails from './assets/components/BookDetails/BookDetails.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter basename='/bookstore2'>
+  <HashRouter>
   <Routes>
       <Route path="/" element ={<Home />}>
         <Route path="/about" element = {<About/>}/>
