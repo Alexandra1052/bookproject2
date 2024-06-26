@@ -12,11 +12,11 @@ import BookList from './assets/components/BookList/BookList'
 import BookDetails from './assets/components/BookDetails/BookDetails.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/bookstore2'>
   <Routes>
       <Route path="/" element ={<Home />}>
         <Route path="/about" element = {<About/>}/>
-        <Route path="/home" element ={<Home />}></Route>
+        <Route path="/home" element ={<Home/>}></Route>
           <Route path="/book" element= {<BookList/>}/>
           <Route path="/book/:id" element={<BookDetails/>}/>
        
