@@ -6,7 +6,8 @@
   
   "version": "0.0.0",
   
-  "homepage": "https://gitname.github.io/bookproject",
+  "homepage": "https://Alexandra1052.github.io/bookproject2",
+  "files": ["build"],
   
   "type": "module",
   
